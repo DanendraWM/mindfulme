@@ -138,7 +138,7 @@
     <div class="modal fade" id="AddModal" tabindex="-1" role="dialog" aria-labelledby="AddModalLabel"
         aria-hidden="true">
         <div class="modal-dialog" role="document">
-            <form action="/admin/add/dokter" method="POST">
+            <form action="/listdokter/add/dokter" method="POST">
                 @csrf
                 <div class="modal-content">
                     <div class="modal-header">
